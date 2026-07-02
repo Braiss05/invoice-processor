@@ -1,0 +1,26 @@
+# =========================================================
+# Invoice Processor — Dependencias de producción
+# Versiones fijadas para garantizar builds reproducibles.
+# =========================================================
+
+# --- Interfaz web ---
+streamlit==1.38.0
+
+# --- Manejo de datos y exportación ---
+pandas==2.2.2
+openpyxl==3.1.5
+
+# --- Extracción de PDF ---
+pdfplumber==0.11.4
+PyMuPDF==1.24.10
+
+# --- OCR ---
+pytesseract==0.3.13
+opencv-python==4.10.0.84
+Pillow==10.4.0
+
+# --- Configuración ---
+python-dotenv==1.0.1
+
+# --- Utilidades ---
+python-dateutil==2.9.0.post0

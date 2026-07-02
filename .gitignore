@@ -1,0 +1,77 @@
+# ==============================
+# Entornos virtuales
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# ==============================
+# Configuración y secretos
+# ==============================
+.env
+.env.local
+*.env.*
+!.env.example
+
+# ==============================
+# Datos generados en tiempo de ejecución
+# (las carpetas se versionan vía .gitkeep, su contenido NO)
+# ==============================
+invoices/*
+!invoices/.gitkeep
+
+exports/*
+!exports/.gitkeep
+
+logs/*
+!logs/.gitkeep
+
+# ==============================
+# Bases de datos locales
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Editor / IDE
+# ==============================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ==============================
+# Testing y cobertura
+# ==============================
+.coverage
+htmlcov/
+coverage.xml
+.tox/
+
+# ==============================
+# Temporales de OCR
+# ==============================
+tmp/
+*.tmp.png
+*.tmp.jpg
